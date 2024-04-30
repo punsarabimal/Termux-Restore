@@ -1,0 +1,7 @@
+echo -e '\e[31mPackage  Updating...\e[0m'
+apt update &&
+apt upgrade &&
+echo -e '\e[31mInstallation Started...\e[0m'
+pkg install python python2 mariadb git neofetch cmatrix sl figlet toilet w3m wget php ruby nmap
+gem install lolcat
+echo -e '\e[31mSuccess...\e[0m'
